@@ -1,0 +1,29 @@
+.del{
+    background-image:url('/img/svg/eliminar.svg');
+    background-repeat:no-repeat;
+    background-size: contain;
+    height:30px;
+    width:30px;
+    background-position:center;
+    background-color: #E2001A;
+}
+
+.ver{
+    background-image:url('/img/svg/search.svg');
+    background-repeat:no-repeat;
+    background-size: contain;
+    height:30px;
+    width:30px;
+    background-position:center;
+    background-color: #E2001A;
+}
+
+.edi{
+    background-image:url('/img/svg/edit_modify_icon-icons.com_72390.svg');
+    background-repeat:no-repeat;
+    background-size: contain;
+    height:30px;
+    width:30px;
+    background-position:center;
+    background-color: #E2001A; 
+}

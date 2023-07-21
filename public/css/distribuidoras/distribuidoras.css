@@ -1,0 +1,69 @@
+/*estilo del mapa*/
+.mapadiv{
+    width: 80%;
+    margin: auto;
+    margin-bottom: 25px;
+}
+
+.mapadiv path:not(.mapadiv_seleccionado) {
+    fill:#ffffff;
+    stroke: #000000;
+    stroke-width: 2px;
+}
+    
+.mapadiv :hover{
+    fill:#E2001A;
+}
+    
+/*para seleccionar pintar el cuadro seleccionado segun su id*/ 
+.mapadiv_seleccionado{
+    fill: #E2001A;
+}
+
+/*estilo del abault principal*/
+.grid_d_vnz{   
+    max-width: 1500px;
+    margin: 0 auto;
+    display: grid;
+    padding-top: 50px;
+    width: 100%;
+    position: relative;
+    grid-template-columns: 40% 60%;
+    align-items: center;
+}
+
+.grid_distribuidor{  
+    display: grid;
+    width: 90%;
+    margin: 0;
+    gap: 2em;
+    margin: 0 auto;
+    grid-template-columns: 50% 50%;
+}
+
+.nombre_distri{
+    color: #E2001A;
+    font-family: Oswald;
+    font-size: calc(0.7em + 0.7vw);
+    line-height: 1.5em;
+    margin: 0em 0em 0em 0.3em;
+}
+
+.n_nombre_distri{
+    color: #E2001A;
+    font-family: Oswald;
+    font-size: calc(0.55em + 0.55vw);
+    line-height: 1.5em;
+    margin: 0;
+    letter-spacing: 0.07vw;
+}
+
+.info_distri{
+    font-size: calc(0.45em + 0.45vw);
+    line-height:2em;
+    text-align: left;
+}
+
+#paginacion {
+    justify-content: center;
+}

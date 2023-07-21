@@ -1,0 +1,86 @@
+.galerias {
+	max-width: 1200px;
+	width: 90%;
+	margin: auto;
+}
+
+/* --- --- CAROUSEL --- --- */
+.carousel__contenedor {
+	position: relative;
+    margin-bottom: 100px;
+}
+
+.carousel__anterior,
+.carousel__siguiente {
+	position: absolute;
+	display: block;
+	width: 30px;
+	height: 30px;
+	border: none;
+	top: calc(50% - 35px);
+	cursor: pointer;
+	line-height: 30px;
+	text-align: center;
+	background: none;
+	color: #E2001A;
+	opacity: 80%;
+}
+
+.carousel__anterior:hover,
+.carousel__siguiente:hover {
+	opacity: 100%;
+}
+
+.carousel__anterior {
+	left: -30px;
+}
+
+.carousel__siguiente {
+	right: -30px;
+}
+
+.carousel__elemento {
+	text-align: center;
+	width: 85%;
+    padding: 20px;
+    margin: 10px 10px;
+	/*border: 2px solid #F7F7F7;*/
+    border-radius: 22px;
+    height: 98%;
+    box-shadow: 1px 1px 10px 10px rgb(235 236 236);
+}
+
+.subtitle_slider{
+    font-family:Oswald;
+    font-size: 20px;
+    padding: 5px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.subtitle
+{
+    margin: 100px 10px 40px 50px;
+    font-size: 30px;
+}
+
+.banda {
+	padding: 0.1rem 0.4rem;
+    border-radius: 1rem;
+    background-color: #E2001A;
+    color: #FFFFFF;
+	width: 90%;
+    height: 35px;
+}
+
+.overlay {
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+	gap: 1em;
+}
+
+.overlay:hover {
+    cursor: pointer;
+}

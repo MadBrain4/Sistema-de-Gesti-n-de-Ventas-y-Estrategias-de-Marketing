@@ -1,0 +1,177 @@
+.container_text {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.container_tt {
+    background-size: 20px 20px;
+    background-position: 0 0, 10px 10px;
+    overflow: hidden;
+}
+
+/* About */
+
+.about_tt {
+    text-align: center;
+}
+
+.about__main {
+    display: grid;
+    width: 80%;
+    margin: 0;
+    gap: 3em;
+    margin-left: 40px;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+
+.about__icons {
+    margin: 10px 10px;
+    border-radius: 22px;
+   /* box-shadow: 1px 1px 10px 10px rgb(235 236 236);*/
+}
+
+.about__icon {/*
+    width: 100%;
+    height: auto;*/
+    width: 120px;
+    height: auto;
+   /* margin: 10px 10px;
+    border-radius: 22px;
+    box-shadow: 1px 1px 10px 10px rgb(235 236 236);*/
+    cursor: pointer;
+}
+
+.about__android {
+    display: grid;
+    width: 100%;
+    margin: 0 auto;
+    grid-template-columns: 80% 20%;
+    align-items: end;
+}
+
+.about__paragraph {
+    line-height: 35px;
+    text-align: left;
+    font-size:20px;
+    margin: 0px 170px 0px 50px;
+    /*font-size: 32px;*/
+    /* margin: 0.5em;*/
+}
+
+.android__paragraph {
+    line-height: 35px;
+    text-align: left;
+    font-size: 28px;
+    margin: 0px 0px 0px 50px;
+}
+
+.subtitle {
+    font-family: Oswald;
+    font-weight: 700;
+    color: #E2001A;
+    font-size: 48px;
+   /* margin-bottom: 25px;*/
+    text-align: left;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin: 18px 10px 35px 50px;
+}
+
+.img_a{
+    max-width: 1000px;
+ }
+
+.log_a{
+    padding: 1px; 
+    margin: 3px; 
+    float: right;
+    width: 180px;
+}
+
+.li_product {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 150px;
+    text-transform: uppercase;
+}
+
+.li_product:hover {
+    background-color:rgb(241 241 241); 
+    box-shadow: none;
+    box-shadow: 0 0 6px 0 rgb(255 255 255 / 98%);
+}
+
+.h_linea
+{
+    font-size: 1em;
+}
+
+/* Knowledge */
+
+.knowledge {
+    padding: 30px;
+    background-size: 20px 20px;
+    background-position: 0 0, 10px 10px;
+    overflow: hidden;
+    background-color: rgb(227 227 227);
+}
+
+.knowledge__container{
+    display: grid;
+    grid-template-columns: 65% 35%;
+    gap: 1em;
+    justify-items: center;
+}
+
+.knowledge__picture{
+    max-width: 250px;
+}
+
+.knowledge__paragraph{
+    line-height: 1.7;
+    margin-bottom: 15px;
+}
+
+.knowledge__img{
+    width: 100%;
+    display: block;
+}
+
+.knowledge__titulo {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1em;
+    align-items: center;
+    justify-items: start;
+}
+
+.d_android {
+    line-height: 50px;
+}
+
+.ul_app {
+    list-style: none;
+    margin: 10px 0px 10px 30px;
+    line-height: 40px;
+    font-size: 18px;
+}
+
+.ul_app .li_app::before{
+    content: "\2022";
+    color: #E2001A;
+    font-size: 25px;
+    font-weight: bold;
+    display: inline-block;
+    width: 20px;
+    margin-left: 17px;
+}
+
+.btn__img {
+    height: 46px;
+    width: auto;
+    margin: 0 auto;
+}

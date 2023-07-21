@@ -1,0 +1,72 @@
+.container_tt 
+{
+    width: 100%;
+    max-width: 2000px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.container_text 
+{
+    width: 90%;
+    max-width: 2000px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.about__paragraph 
+{
+    font-size: calc(0.7em + 0.7vw);
+    line-height: 1.4em;
+    padding: 0.7em;
+    margin: 0em 11em 0em 7em;
+    text-align: justify;
+}
+
+.about__Texto_home
+{
+    display: grid;
+    width: 100%;
+    margin: 0 auto;
+    grid-template-columns: 70% 30%;
+    align-items: end;
+}
+
+.subtitl 
+{   
+    font-family: Oswald;
+    font-size: calc(1.3em + 1.3vw);
+    line-height: 1.5em;
+    margin: 0em 0em 0em 4em;
+}
+
+.tituli_ro
+{
+    color: #E2001A;
+    font-family: Oswald;
+    font-size: calc(1.2em + 1.2vw);
+    line-height: 1.5em;
+    margin: 0em 0em 0em 4.5em;
+    letter-spacing: 0.2vw;;
+}
+
+.li_product 
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 150px;
+    gap: 0.3em;
+    text-transform: uppercase;
+}
+
+.ico_filtro
+{
+    max-width: 80%;
+}
+
+.ver_mas 
+{
+    max-width: 100px;;
+}

@@ -1,0 +1,93 @@
+/*galeria nuevo producto*/
+.galeria{
+    font-family: 'open sans';
+}
+
+
+.contenedor-imagenes{
+    display:flex;
+    width: 85%;
+    margin: auto;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    border-radius:3px;
+}
+
+.contenedor-imagenes .imag{
+    width: 32%;
+    position: relative;
+    height:250px;
+    margin-bottom:4em;
+    box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, .75)
+}
+
+.imag img{
+    width: 100%;
+    height:100%;
+    object-fit: cover;
+}
+
+.div_imagenes {
+    position: absolute; 
+    background-color: white; 
+    height: 100%; 
+    color:red; 
+    justify-content: center; 
+    align-items: center;
+}
+
+/*file*/
+
+.inputfile {
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+}
+
+.inputfile + .file-1 {
+    max-width: 80%;
+    font-size: 1.25rem;
+    font-weight: 700;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    cursor: pointer;
+    display: inline-block;
+    overflow: hidden;
+    padding: 0.625rem 1.25rem;
+    margin-bottom: 2em;
+}
+
+.inputfile + .file-1 svg {
+    width: 1em;
+    height: 1em;
+    vertical-align: middle;
+    fill: currentColor;
+    margin-top: -0.25em;
+    margin-right: 0.25em;
+}
+
+.iborrainputfile {
+	font-size: 16px; 
+	font-weight: normal;
+	font-family: 'Lato';
+}
+
+/* style 1 */
+
+.inputfile-1 + .file-1 {
+    color: #fff;
+    background-color: #E2001A;
+}
+
+.inputfile-1:focus + .file-1,
+.inputfile-1.has-focus + .file-1,
+.inputfile-1 + .file-1:hover {
+    background-color: #E2001A8c;
+}
+
+.imagen:hover{
+    cursor: pointer;
+}

@@ -1,0 +1,12 @@
+li {
+    list-style: none;
+}
+
+.boton_agregar {
+    margin-right:0.5em;
+}
+
+.tareas {
+    display: flex;
+    padding: 0.25em;
+}

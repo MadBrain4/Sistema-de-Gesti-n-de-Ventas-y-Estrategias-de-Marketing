@@ -1,0 +1,31 @@
+.about__desde
+{
+    display: grid;
+    width: 100%;
+    margin: 2em;
+    gap: 0vw;
+    grid-template-columns: 70% 30%;
+    align-items: center;
+}
+
+.android__paragraphh
+{
+    font-family: Oswald;
+    font-size: calc(1em + 1vw);
+    line-height: 1.5em;
+    margin: 0em 0em 0em 4.5em;
+}
+
+.logo_desde
+{
+    width: 200px;
+}
+
+.about__paragraph 
+{
+    font-size: calc(0.7em + 0.7vw);
+    line-height: 1.4em;
+    padding: 0.7em;
+    margin: 0em 11em 0em 7em;
+    text-align: justify;
+}

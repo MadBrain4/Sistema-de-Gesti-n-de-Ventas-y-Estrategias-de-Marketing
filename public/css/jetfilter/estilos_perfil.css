@@ -1,0 +1,35 @@
+ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+.nav__items, .nav__items_usuario{
+    margin: 0 2em;
+}
+
+.nav__links, .nav__links_usuario {
+    color: #fff;
+    text-decoration: none;
+    transition: all 0.5s ease;
+}
+
+.nav__links:hover {
+    padding: 15px;
+    background: #fff ;
+    color: #0e0e0e;
+    border-radius: 15px;
+}
+
+.nav__items_usuario:hover{
+    padding: 2px 10px;
+    background: #B60000 ;
+    border-radius: 15px;
+    transition: all 0.5s ease;
+}
+
+.nav__logo{
+    height: 100%;
+    width: 100%;
+    margin-left: 0;
+}

@@ -1,0 +1,96 @@
+.home {
+    display: flex;
+    gap: 100px;
+    flex-direction: column;
+    width: 100%;
+}
+
+.flexbox-container
+{
+	display: -ms-flex;
+	display: -webkit-flex;
+	display: flex;
+    background-color: rgb(197, 198, 198);
+    max-width: 2000px;
+}
+
+.about__Texto_home {
+    display: grid;
+    width: 100%;
+    margin: 0 auto;
+    grid-template-columns: 70% 30%;
+    align-items: end;
+ }
+
+.div_img_logo {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.logo_rr {
+    width: 70%;
+}
+
+
+.div_video_aire
+{
+    display: flex;
+    flex-flow: wrap;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.flexbox-container > .div_img_logo {
+    width: 30%;
+}
+
+.flexbox-container > .div_video_aire {
+    width: 70%;
+}
+
+.video_seccion {
+    max-width: 1080px;
+    max-height: 720px;
+    position: relative;
+}
+
+.wrapper_videos
+{
+    width: 100%;
+}
+
+.video_home 
+{
+    position: relative;
+    width: 100%;
+    height: 79vh;
+    max-width: 2000px;
+    max-height: 800px;
+    object-fit: fill;
+    transition: all 300ms linear;
+    z-index: 1;
+}
+
+.div_txt_v_aire
+{
+    padding: 10px;
+}
+
+.tituli_ro_logo {
+    color: #E2001A;
+    font-family: Oswald;
+    font-size: calc(1.5em + 1.5vw);
+    line-height: 1.5em;
+    letter-spacing: 0.2vw;
+    text-align: center;
+}
+
+.subtitl_negro_logo {
+    font-family: Oswald;
+    font-size: calc(1.2em + 1.2vw);
+    line-height: 1.5em;
+    text-align: center;
+    text-transform: uppercase;
+}

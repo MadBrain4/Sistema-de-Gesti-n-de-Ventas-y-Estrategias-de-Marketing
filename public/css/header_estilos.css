@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.slide1, .slide2, .slide3 {
+    position: absolute;
+    width: 100%;
+    height: 79vh;
+    max-width: 2000px;
+    /*max-height: 550px;*/
+    object-fit: fill;
+    transition: all 300ms linear;
+    z-index: 1;
+}
+
+.slide1 {
+    opacity:1;
+}
+
+.slide2 {
+    opacity:0;
+}
+
+.slide3 {
+    opacity:0;
+}
+
+.wrapper{
+    width: 100%;
+    height: 87vh;
+}
